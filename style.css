@@ -1,1 +1,182 @@
-/* Your CSS styles go here */
+body{
+
+    background-color: rgba(5, 176, 206, 0.774);
+text-align:right;
+background-image: url("wallpaper2.png");
+background-repeat:  no-repeat ;
+width: 10 px;
+height: 10 px;
+
+}
+
+
+.picture{
+    padding-top: 60 px;
+    width: 60 px;
+    height:60 px;
+
+    text-align: center;
+ 
+    }
+
+
+.contacts{
+    width: 2000 px;
+    height: 2000 px;
+    text-align: center;    
+}
+
+.block2{
+    text-align: center;
+}
+
+.Education1{text-align: center;}
+
+
+.Education ul{
+    list-style-position: inside;
+    width: 2000 px;
+    height: 2000 px;
+    text-align: center;         
+}
+
+
+
+.workexperience ul{
+    
+    list-style-position: inside;
+    width: 200 px;
+    height: 200 px;
+    text-align: center;  
+
+
+}
+
+.skills{
+    text-align: center;  
+}
+
+.skills ul{
+   
+    list-style-position: inside;
+    width: 2000 px;
+    height: 2000 px;
+    text-align: center;  
+}
+
+
+.body1{
+    width: 1000 px;
+    height: 1000 px;
+    text-align: center;   
+}
+
+
+
+.body3{
+    text-align: center;   
+}
+.wrapper{
+    width: 1200px;
+    
+    position: absolute;
+    padding: 30px 0 30px;
+    line-height: 25px;
+    font-size: 14px;
+
+}
+.wrapper h2{
+    text-align: right;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.skills-area{
+    width: 40%;
+}
+.single-skills{
+    list-style: none;
+    padding-top: 25px;
+}
+.single-skills li{
+    margin-bottom: 40px;
+    height: 15px;
+}
+.single-skills li b{
+    position: relative;
+    top: -35%;
+    font-size: 20px;
+}
+.line{
+    position: absolute;
+    background: #fff;
+    margin: 2px 0;
+    height: 15px;
+}
+.microsoft{
+    width: 70%;
+    -webkit-animation: microsoft 2s ease-out;
+    -o-animation: microsoft 2s ease-out;
+    animation:microsoft 2s ease-out; 
+}
+.hardware{
+    width: 65%;
+    -webkit-animation: hardware 2s ease-out;
+    -o-animation: hardware 2s ease-out;
+    animation:hardware 2s ease-out; 
+}
+.language{
+    width: 67%;
+    -webkit-animation: language 2s ease-out;
+    -o-animation: language 2s ease-out;
+    animation:language 2s ease-out; 
+}
+.java{
+    width: 58%;
+    -webkit-animation: java 2s ease-out;
+    -o-animation: java 2s ease-out;
+    animation:java 2s ease-out; 
+}
+.assembly{
+    width: 50%;
+    -webkit-animation: java 2s ease-out;
+    -o-animation: java 2s ease-out;
+    animation:java 2s ease-out;
+}
+
+@media(min-width:300 px) and (max-width:1350px ){
+    @-moz-keyframes web{
+    {
+            width: 0;
+    }
+    {
+            width: 50%;
+    }}
+}
+@media(min-width:300 px) and (max-width:1350px ){
+    .skills-area{
+    @-moz-keyframes development{
+    {
+            width: 0;
+    }
+    {
+            width: 60%;
+    }}
+}}
+
+.OBJECTIVES{
+    text-align: center;
+}
+
+.language{
+    width: 1000px;
+    height: 1000 px;
+    text-align: center;
+}
+
+.languageUl{
+    list-style-position: inside;
+    width: 1000px;
+    height: 1000 px;
+    text-align: center;  
+}
